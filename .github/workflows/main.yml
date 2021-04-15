@@ -7,8 +7,8 @@ on:
   # Triggers the workflow on push or pull request events but only for the stage branch
   push:
     branches: 
-      - stage 
-        master
+    - stage 
+      master
   
   
 jobs:
@@ -21,4 +21,5 @@ jobs:
         host: ${{ secrets.STAGING_HOST }}
         username: ${{ secrets.STAGING_USER }}
         key: ${{ secrets.SSH_KEY }}
+    - name: where is I
       run: pwd
