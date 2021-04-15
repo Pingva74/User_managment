@@ -18,4 +18,5 @@ jobs:
          username: ${{ secrets.STAGING_USER }}
          key: ${{ secrets.SSH_KEY }}
      - run: |
-         pwd
+         pwd \
+         ls -la \
