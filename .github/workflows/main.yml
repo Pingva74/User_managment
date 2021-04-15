@@ -21,5 +21,4 @@ jobs:
         host: ${{ secrets.STAGING_HOST }}
         username: ${{ secrets.STAGING_USER }}
         key: ${{ secrets.SSH_KEY }}
-        script:
-          pwd
+        run: pwd
