@@ -3,7 +3,7 @@
 name: test-ssh
 # Controls when the action will run. 
 on:
-  # Triggers the workflow on push or pull request events but only for the stage branch
+  # Triggers the workflow on push or pull request events but only for the stage 
   push:
     branches: 
       - stage 
